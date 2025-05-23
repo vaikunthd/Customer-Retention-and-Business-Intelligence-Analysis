@@ -6,6 +6,26 @@
 
 </div>
 
+## 📝 Background
+
+This project was initiated to help businesses better understand their customer base and optimize business strategies through data-driven insights. By leveraging transactional and behavioral data, the goal is to uncover actionable patterns that drive retention and profitability.
+
+## ❓ Problems Addressed
+
+- Identifying which products and customer segments drive the most value
+- Understanding customer retention patterns and lifecycle
+- Pinpointing business cycles and peak sales periods
+- Providing actionable insights for improving retention and profitability
+
+## 🧑‍🔬 Methodology
+
+1. **Data Collection:** Aggregated sales and customer data from business databases.
+2. **Data Cleaning & Preprocessing:** Used Python (pandas) for data wrangling and preparation.
+3. **Exploratory Data Analysis:** Visualized trends and distributions using seaborn and plotly.
+4. **Segmentation:** Applied statistical modeling (scikit-learn) to identify customer segments.
+5. **Retention Analysis:** Analyzed repeat purchase rates and lifecycle patterns.
+6. **Business Intelligence Reporting:** Built interactive dashboards in Power BI to communicate findings.
+
 ## 📊 Analysis Components
 
 ```python
@@ -49,5 +69,11 @@ TOOLS = {
 - Identified profitable customer segments
 - Optimized product margins
 - Enhanced retention strategies
+
+## ⚠️ Limitations
+
+- Analysis is based on historical data from a specific period; results may not generalize to other timeframes or industries.
+- Data quality and completeness may impact certain insights.
+- External factors (e.g., market changes) are not accounted for in the analysis.
 
 For questions or collaboration, open an issue
